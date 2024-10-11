@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #1e293b;
+    color: #ffffff;
+    padding: 1rem 2rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links a {
+    margin-left: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #1e293b;
+    color: white;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    float: left;
+}
+
+.hero-text p {
+    color: #9aa5b1;
+    margin-bottom: 2rem;
+    max-width: 400px;
+    float: left;
+    
+}
+
+.sign-up {
+    padding: 0.8rem 1.5rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    float: left;
+}
+
+.hero-image .image-placeholder {
+    width: 300px;
+    height: 200px;
+    background-color: #4b5563;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.1rem;
+    ;
+}
+
+.info {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.info-box {
+    width: 200px;
+    height: 150px;
+    border: 2px solid #3b82f6;
+    padding: 1rem;
+    color: #4b5563;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.quote p {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.quote cite {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bolder;
+    color: #333;
+}
+
+.cta {
+    background-color: #3b82f6;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cta p {
+    margin-bottom: 1rem;
+}
+.cta button{
+    padding: 0.8rem 1.5rem;
+    background-color: #0a0dc4;
+    color: white;
+    border: 1px 1px white solid;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1e293b;
+    color: #9aa5b1;
+    text-align: center;
+    padding: 1rem 0;
+}
